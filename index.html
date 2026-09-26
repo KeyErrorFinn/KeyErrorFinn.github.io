@@ -1,11 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Finnley's software development portfolio, featuring web apps, desktop tools, browser utilities, and C# game mods.">
+  <meta property="og:title" content="Finnley | Software Developer">
+  <meta property="og:description" content="Practical software projects built with TypeScript, React, Electron, Python, and C#.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://git.finnley.co.uk/">
+  <title>Finnley | Software Developer</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    This is just a tempt page, ignore.
+  <header class="site-header">
+    <a class="brand" href="#top">Finnley</a>
+    <nav aria-label="Main navigation">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="https://github.com/KeyErrorFinn">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="intro-title">
+      <p class="eyebrow">Software developer</p>
+      <h1 id="intro-title">I build practical tools for real workflows.</h1>
+      <p class="intro">Desktop utilities, web applications, browser tools, and C# game mods, built with a focus on useful interfaces and understandable code.</p>
+      <div class="actions">
+        <a class="button primary" href="#projects">View projects</a>
+        <a class="button secondary" href="https://github.com/KeyErrorFinn">GitHub profile</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2 id="projects-title">Featured projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project featured">
+          <div>
+            <p class="project-number">01</p>
+            <h3>Online Stream Deck Editor</h3>
+            <p>Opens, previews, edits, and exports Stream Deck profiles in the browser. It supports nested folders, device grids, plugin actions, and local workspace persistence without a backend.</p>
+          </div>
+          <ul class="tags" aria-label="Technologies">
+            <li>React</li><li>TypeScript</li><li>Vite</li><li>Archive processing</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://git.finnley.co.uk/online-elgato-streamdeck-editor/">Live app</a>
+            <a href="https://github.com/KeyErrorFinn/online-elgato-streamdeck-editor">Source</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="project-number">02</p>
+            <h3>RPUK Screenshot Cropper</h3>
+            <p>An Electron desktop app for reviewing, cropping, and organising screenshot batches. Filesystem and image processing stay in the main process behind a context-isolated bridge.</p>
+          </div>
+          <ul class="tags" aria-label="Technologies">
+            <li>Electron</li><li>React</li><li>Sharp</li><li>Vite</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/KeyErrorFinn/rpuk-screenshot-cropper">Source</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="project-number">03</p>
+            <h3>How to QuickSell</h3>
+            <p>A BepInEx mod that sells eligible catches through the game's own trader flow. It handles inventory, held, and nearby floor items while protecting quest items and duplicate sale candidates.</p>
+          </div>
+          <ul class="tags" aria-label="Technologies">
+            <li>C#</li><li>.NET Framework</li><li>BepInEx</li><li>Unity</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/KeyErrorFinn/how-to-fish-quicksell-mod">Source</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="project-number">04</p>
+            <h3>Park Ranger Bills Helper</h3>
+            <p>Turns game logs and spreadsheet rows into weekly bills, contact lists, and ready-to-review messages. All supplied information is processed in the browser.</p>
+          </div>
+          <ul class="tags" aria-label="Technologies">
+            <li>React</li><li>TypeScript</li><li>Sass</li><li>Data parsing</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://git.finnley.co.uk/rpuk-park-ranger-bills/">Live app</a>
+            <a href="https://github.com/KeyErrorFinn/rpuk-park-ranger-bills">Source</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="project-number">05</p>
+            <h3>How to Karambit</h3>
+            <p>A configurable client-side cosmetic mod for How to Fish. It replaces the held knife mesh, applies game skins, provides two grip poses, and keeps settings in BepInEx configuration.</p>
+          </div>
+          <ul class="tags" aria-label="Technologies">
+            <li>C#</li><li>Unity</li><li>Harmony</li><li>3D assets</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/KeyErrorFinn/how-to-fish-karambit-mod">Source</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="project-number">06</p>
+            <h3>Order Book Project</h3>
+            <p>A collaborative Streamlit application that demonstrates sorted bids and asks, order validation, price-based grouping, and first-in handling for duplicate orders.</p>
+          </div>
+          <ul class="tags" aria-label="Technologies">
+            <li>Python</li><li>Streamlit</li><li>Session state</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/KeyErrorFinn/mthree-order-book-project">Source</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 id="about-title">Software made to solve something specific.</h2>
+      </div>
+      <div class="about-copy">
+        <p>I enjoy finding repetitive or awkward workflows and turning them into focused software. My projects span web interfaces, desktop applications, browser extensions, automation, and game modding.</p>
+        <p>I am open to software development opportunities where I can keep learning, contribute useful work, and improve products through careful implementation.</p>
+        <a class="text-link" href="https://github.com/KeyErrorFinn">See all repositories</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by Finnley. Project details and source code are available on GitHub.</p>
+    <a href="#top">Back to top</a>
+  </footer>
 </body>
 </html>
