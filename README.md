@@ -16,7 +16,7 @@ The source for [git.finnley.co.uk](https://git.finnley.co.uk/), a responsive por
 - Detailed case studies covering browser, desktop, automation, and C# work.
 - Dedicated previews for RepQuest and WoL Plus while they remain in development.
 - Direct links to public source code and live applications where available.
-- Quick links to LinkedIn and a downloadable CV from the hero and About sections.
+- Quick link to LinkedIn from the hero and About sections.
 - Project screenshots stored with the site rather than loaded from third-party hosts.
 - Responsive, accessible HTML and CSS with no client-side framework.
 
@@ -37,7 +37,6 @@ GitHub Pages serves `index.html` and `styles.css` directly from the configured p
 - `index.html`, semantic page structure, project case studies, and social metadata.
 - `styles.css`, responsive layout and visual design.
 - `assets/projects/`, locally hosted project screenshots.
-- `assets/Finnley-Hayward-CV.pdf`, the downloadable CV linked from the site.
 - `CNAME`, custom GitHub Pages domain.
 
 ## Updating the portfolio
