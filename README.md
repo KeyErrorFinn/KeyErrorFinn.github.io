@@ -1,6 +1,9 @@
 # KeyErrorFinn.github.io
 
-[![Last commit](https://img.shields.io/github/last-commit/KeyErrorFinn/KeyErrorFinn.github.io)](https://github.com/KeyErrorFinn/KeyErrorFinn.github.io/commits/main) [![Issues](https://img.shields.io/github/issues/KeyErrorFinn/KeyErrorFinn.github.io)](https://github.com/KeyErrorFinn/KeyErrorFinn.github.io/issues)
+<p align="center">
+  <a href="https://github.com/KeyErrorFinn/KeyErrorFinn.github.io/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KeyErrorFinn/KeyErrorFinn.github.io" /></a>
+  <a href="https://github.com/KeyErrorFinn/KeyErrorFinn.github.io/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/KeyErrorFinn/KeyErrorFinn.github.io" /></a>
+</p>
 
 <p align="center">
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff" />
