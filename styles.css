@@ -393,6 +393,12 @@ h3 {
   font-size: 1.05rem;
 }
 
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 footer {
   padding: 36px 0 56px;
   display: flex;
