@@ -8,14 +8,15 @@
   <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=fff" />
 </p>
 
-The source for [git.finnley.co.uk](https://git.finnley.co.uk/), a compact portfolio of selected software projects.
+The source for [git.finnley.co.uk](https://git.finnley.co.uk/), a responsive portfolio of selected engineering work and current projects.
 
 ## What it includes
 
-- A clear introduction and link to the full GitHub profile.
-- Six selected projects covering web, desktop, Python, and C# work.
-- Direct links to source code and live applications where available.
-- A short summary of the problems and technical work behind each project.
+- Professional positioning as a Data & AI Engineer.
+- Detailed case studies covering browser, desktop, automation, and C# work.
+- Dedicated previews for RepQuest and WoL Plus while they remain in development.
+- Direct links to public source code and live applications where available.
+- Project screenshots stored with the site rather than loaded from third-party hosts.
 - Responsive, accessible HTML and CSS with no client-side framework.
 
 ## Local preview
@@ -32,8 +33,9 @@ GitHub Pages serves `index.html` and `styles.css` directly from the configured p
 
 ## Files
 
-- `index.html`, semantic page structure, project content, and social metadata.
+- `index.html`, semantic page structure, project case studies, and social metadata.
 - `styles.css`, responsive layout and visual design.
+- `assets/projects/`, locally hosted project screenshots.
 - `CNAME`, custom GitHub Pages domain.
 
 ## Updating the portfolio
