@@ -2,6 +2,12 @@
 
 [![Last commit](https://img.shields.io/github/last-commit/KeyErrorFinn/KeyErrorFinn.github.io)](https://github.com/KeyErrorFinn/KeyErrorFinn.github.io/commits/main) [![Issues](https://img.shields.io/github/issues/KeyErrorFinn/KeyErrorFinn.github.io)](https://github.com/KeyErrorFinn/KeyErrorFinn.github.io/issues)
 
+<p align="center">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff" />
+  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=fff" />
+  <img alt="Custom domain" src="https://img.shields.io/badge/Custom%20domain-0EA5E9?logoColor=fff" />
+</p>
+
 A minimal GitHub Pages site for the `KeyErrorFinn` account.
 
 ## Current page
