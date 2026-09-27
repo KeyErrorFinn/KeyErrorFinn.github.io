@@ -13,8 +13,10 @@ The source for [git.finnley.co.uk](https://git.finnley.co.uk/), a responsive por
 ## What it includes
 
 - Professional positioning as a Data & AI Engineer.
-- Detailed case studies covering browser, desktop, automation, and C# work.
-- Dedicated previews for RepQuest and WoL Plus while they remain in development.
+- Compact project case studies covering browser, desktop, automation, and C# work.
+- A restrained programmer-focused visual system using editor panels, monospace details, and code syntax colours.
+- Screenshot cards and code-based previews so projects remain consistent even when no product image is available.
+- Technical summaries for RepQuest and WoL Plus while they remain in development.
 - Direct links to public source code and live applications where available.
 - Quick link to LinkedIn from the hero and About sections.
 - Project screenshots and social-preview artwork stored with the site rather than loaded from third-party hosts.
@@ -35,7 +37,7 @@ GitHub Pages serves `index.html` and `styles.css` directly from the configured p
 ## Files
 
 - `index.html`, semantic page structure, project case studies, and social metadata.
-- `styles.css`, responsive layout and visual design.
+- `styles.css`, responsive editor-inspired layout and visual design.
 - `assets/projects/`, locally hosted project screenshots.
 - `assets/social-card.png`, the sharing preview used by social platforms.
 - `assets/favicon.svg`, the browser icon.
