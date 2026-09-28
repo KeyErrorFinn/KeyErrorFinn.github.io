@@ -20,7 +20,7 @@
   <title>Finnley | Data &amp; AI Engineer</title>
   <link rel="canonical" href="https://git.finnley.co.uk/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -40,7 +40,12 @@
       <div class="hero-copy">
         <p class="prompt"><span aria-hidden="true">$</span> whoami</p>
         <h1 id="intro-title">Data &amp; AI Engineer who builds useful software.</h1>
-        <p class="intro">I work across full-stack applications, AI integration, developer tooling, automation, and desktop software. I enjoy taking awkward workflows and turning them into focused, reliable products.</p>
+        <p class="intro">I build full-stack and AI-enabled products with Python, FastAPI, React, and TypeScript. My strongest work turns awkward workflows into reliable automation, developer tools, and desktop applications.</p>
+        <ul class="strength-list" aria-label="Core strengths">
+          <li>Full-stack delivery</li>
+          <li>Workflow automation</li>
+          <li>Developer tooling</li>
+        </ul>
         <div class="actions">
           <a class="button primary" href="#work">View projects</a>
           <a class="button" href="https://github.com/KeyErrorFinn">GitHub</a>
@@ -80,45 +85,46 @@
       <div class="project-grid">
         <article class="project-card">
           <a class="project-media" href="https://git.finnley.co.uk/online-elgato-streamdeck-editor/" aria-label="Try the Online Stream Deck Editor">
-            <img src="assets/projects/stream-deck-editor.jpg?v=2" alt="A Stream Deck profile open in the browser-based editor">
+            <img src="assets/projects/stream-deck-editor.jpg?v=2" alt="A Stream Deck profile open in the browser-based editor" loading="lazy" decoding="async">
           </a>
           <div class="project-content">
             <div class="project-meta"><span>Browser application</span><span>01</span></div>
             <h3>Online Stream Deck Editor</h3>
             <p>Inspect, edit, and export Stream Deck profiles without a physical device. Handles archive extraction, nested folders, grid sizes, plugin actions, and local workspace persistence entirely in the browser.</p>
             <ul class="tags" aria-label="Technologies"><li>React</li><li>TypeScript</li><li>Vite</li><li>Archives</li></ul>
-            <div class="project-links"><a href="https://git.finnley.co.uk/online-elgato-streamdeck-editor/">Live app</a><a href="https://github.com/KeyErrorFinn/online-elgato-streamdeck-editor">Source</a></div>
+            <div class="project-links"><a href="https://git.finnley.co.uk/online-elgato-streamdeck-editor/">Live demo</a><a href="https://github.com/KeyErrorFinn/online-elgato-streamdeck-editor">Source repository</a></div>
           </div>
         </article>
 
         <article class="project-card">
           <a class="project-media" href="https://github.com/KeyErrorFinn/rpuk-screenshot-cropper" aria-label="View the RPUK Screenshot Cropper repository">
-            <img src="assets/projects/screenshot-cropper.png?v=2" alt="The RPUK Screenshot Cropper displaying a batch of incoming screenshots">
+            <img src="assets/projects/screenshot-cropper.png?v=2" alt="The RPUK Screenshot Cropper displaying a batch of incoming screenshots" loading="lazy" decoding="async">
           </a>
           <div class="project-content">
             <div class="project-meta"><span>Desktop application</span><span>02</span></div>
             <h3>RPUK Screenshot Cropper</h3>
             <p>Review, crop, and organise large screenshot batches. Image work stays behind a context-isolated Electron bridge, while cached metadata and lightweight thumbnails keep large folders responsive.</p>
             <ul class="tags" aria-label="Technologies"><li>Electron</li><li>React</li><li>Sharp</li><li>Playwright</li></ul>
-            <div class="project-links"><a href="https://github.com/KeyErrorFinn/rpuk-screenshot-cropper">Source</a></div>
+            <div class="project-links"><a href="https://github.com/KeyErrorFinn/rpuk-screenshot-cropper">Source repository</a></div>
           </div>
         </article>
 
         <article class="project-card">
           <a class="project-media" href="https://git.finnley.co.uk/rpuk-park-ranger-bills/" aria-label="Open the Park Ranger Bills Helper">
-            <img src="assets/projects/ranger-bills.jpg?v=2" alt="The Park Ranger Bills Helper showing parsed weekly billing information">
+            <img src="assets/projects/ranger-bills.jpg?v=2" alt="The Park Ranger Bills Helper showing parsed weekly billing information" loading="lazy" decoding="async">
           </a>
           <div class="project-content">
             <div class="project-meta"><span>Workflow automation</span><span>03</span></div>
             <h3>Park Ranger Bills Helper</h3>
             <p>Transforms game logs and spreadsheet rows into weekly bills, contact lists, and ready-to-review messages. Deterministic parsing replaced a long and error-prone manual process.</p>
             <ul class="tags" aria-label="Technologies"><li>React</li><li>TypeScript</li><li>Vite</li><li>Sass</li></ul>
-            <div class="project-links"><a href="https://git.finnley.co.uk/rpuk-park-ranger-bills/">Live app</a><a href="https://github.com/KeyErrorFinn/rpuk-park-ranger-bills">Source</a></div>
+            <div class="project-links"><a href="https://git.finnley.co.uk/rpuk-park-ranger-bills/">Live demo</a><a href="https://github.com/KeyErrorFinn/rpuk-park-ranger-bills">Source repository</a></div>
           </div>
         </article>
 
         <article class="project-card">
-          <a class="project-media code-preview" href="https://github.com/KeyErrorFinn/how-to-fish-quicksell-mod" aria-label="View the How to QuickSell repository">
+          <a class="project-media code-preview" href="https://github.com/KeyErrorFinn/how-to-fish-quicksell-mod">
+            <span class="sr-only">How to QuickSell source repository. </span>
             <div class="code-tab"><span>QuickSellPlugin.cs</span><span>C#</span></div>
             <pre aria-hidden="true"><code><span class="syntax-keyword">foreach</span> (<span class="syntax-keyword">var</span> item <span class="syntax-keyword">in</span> inventory)
 {
@@ -134,7 +140,7 @@ Sell(eligibleItems.Distinct());</code></pre>
             <h3>How to QuickSell</h3>
             <p>A BepInEx mod that gathers eligible items from several inventory sources, protects quest items, and prevents duplicate submissions to the game's existing trader system.</p>
             <ul class="tags" aria-label="Technologies"><li>C#</li><li>.NET</li><li>BepInEx</li><li>Harmony</li><li>Unity</li></ul>
-            <div class="project-links"><a href="https://github.com/KeyErrorFinn/how-to-fish-quicksell-mod">Source</a></div>
+            <div class="project-links"><a href="https://github.com/KeyErrorFinn/how-to-fish-quicksell-mod">Source repository</a></div>
           </div>
         </article>
       </div>
