@@ -12,7 +12,7 @@ The source for [git.finnley.co.uk](https://git.finnley.co.uk/), a responsive por
 
 ## What it includes
 
-- Professional positioning as a Data & AI Engineer.
+- Professional positioning as a Software & AI Engineer.
 - Compact project case studies covering browser, desktop, automation, and C# work.
 - A restrained programmer-focused visual system using editor panels, monospace details, and code syntax colours.
 - Screenshot cards and code-based previews so projects remain consistent even when no product image is available.
